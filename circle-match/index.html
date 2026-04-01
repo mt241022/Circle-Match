@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Match</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="baseCircle.js" defer></script>
+    <script src="fallingCircle.js" defer></script>
+    <script src="punktestand.js" defer></script>
+    <script src="startgame.js" defer></script>
+    <script src="gameover.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div id="startgame">
+        <h1>CIRCLE MATCH</h1>
+        <p>Drücke die Leertaste, wenn sich die Kreise möglichst<br> 
+            genau überlagern und die gleiche Farbe haben!</p>
+        <button id="start-button">START</button>
+    </div>
+    <div id="punktestand"></div>
+    <div id="gameover" style="display: none;">
+        <h1>GAME OVER</h1>
+        <p id="punktestand-anzeigen"></p>
+        <p id="highscore-anzeigen"></p>
+        <button id="neustart-button">NEUSTART</button>
+    </div>
+
+</body>
+</html>
