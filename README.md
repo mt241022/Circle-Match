@@ -1,2 +1,6 @@
-# Circle-Match
-Circle Match is a web game where players match overlapping circles of the same colour, shrinking the central circle with each successful match.
+# Circle Match
+Circle Match is a small web game where the goal is to create the overlapping area of two circles of the same color as many times as possible. After each successful match, the central circle shrinks by taking the overlapping area as its new radius.
+
+## Technologies
+- JavaScript
+- HTML & CSS
